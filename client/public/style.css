@@ -1,0 +1,83 @@
+﻿/*generics*/
+	html{
+		overflow: hidden !important; /*hide the master overflow*/
+	}
+
+	body{
+		font-family: Roboto;
+	}
+	
+/*scrollbar*/
+	/*width*/
+	::-webkit-scrollbar {
+		width: 20px;
+	}
+  
+	/*track*/
+	::-webkit-scrollbar-track {
+		background: rgb(8,69,150);
+	}
+	
+	/*handle default*/
+	::-webkit-scrollbar-thumb {
+		background: rgb(17,94,180);
+	}
+	
+	/*hover handle*/
+	::-webkit-scrollbar-thumb:hover {
+		background: rgb(27, 133, 255);
+		cursor: pointer !important;
+	}
+
+
+/*customs*/
+	.dizagara-header{
+		font-size: 24px;
+		font-weight: bolder;
+	}
+
+	.dizagara-outline-blue {
+		border: 1px solid rgb(0, 24, 68) !important;
+	}
+
+	.dizagara-banner-button {
+		background-color: rgb(1, 77, 213) !important;
+		color:white !important;
+		width: 175px;
+		margin: 5px;
+		border-radius: 5px !important;
+	}
+
+	.dizagara-banner-bar{
+		color: white !important; 
+		border-top: 1px solid black !important;
+		border-bottom: 1px solid black !important; 
+		height: 50px !important; 
+		border-radius: 0px !important; 
+		background-color: rgb(1,38,106) !important;
+	}
+
+	.dizagara-night-level-01{
+		background-color: rgb(0, 10, 30) !important;
+	}
+
+	.dizagara-night-level-02{
+		background-color: rgb(0, 27, 75) !important;
+	}
+
+	.dizagara-night-level-03{
+		background-color: rgb(0, 45, 120) !important;
+	}
+
+	.dizagara-label-01{
+		color: rgba(255, 255, 255, 1.0) !important;
+	}
+
+	.dizagara-label-02{
+		color: rgba(150, 215, 255, 0.75) !important;
+	}
+
+	.dizagara-label-03{
+		color: rgba(150, 215, 255, 1.00) !important;
+		font-weight: bold !important;
+	}
